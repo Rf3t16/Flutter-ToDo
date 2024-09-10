@@ -22,7 +22,7 @@ A simple and intuitive To-Do list application built with Flutter, designed to he
 - Each task item can be edited or deleted through a dialog.
 - Automatic deletion of tasks if all items are removed.
 
-### Architecture
+## [Architecture]
 The app follows the MVC architecture:
 - Model: Handles task data (Task and TaskItem).
 - View: Responsible for the UI layout and presentation (HomeView, TaskItemWidget).
