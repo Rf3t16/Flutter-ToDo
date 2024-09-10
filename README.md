@@ -2,7 +2,7 @@
 A simple and intuitive To-Do list application built with Flutter, designed to help users manage their daily tasks efficiently. The app follows the MVC (Model-View-Controller) architecture
 
 # GIF
-
+![Loading...](Gif/Gif.gif)
 
 
 
