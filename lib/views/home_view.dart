@@ -12,7 +12,7 @@ class HomeView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppStyle.appBarStyle('To-Do List'),
+      appBar: AppStyle.appBarStyle('To-Do App'),
       backgroundColor: AppStyle.backgroundColor,
       body: Consumer<TaskController>(
         builder: (context, taskController, child) {
@@ -126,6 +126,7 @@ class HomeView extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () => showModalBottomSheet(
+          isScrollControlled: true,
           context: context,
           builder: (context) => const AddTaskBottomSheet(),
         ),
