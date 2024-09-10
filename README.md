@@ -1,10 +1,10 @@
-# To-Do App 📋
-A simple and intuitive To-Do list application built with Flutter, designed to help users manage their daily tasks efficiently. The app follows the MVC (Model-View-Controller) architecture
+# [To-Do App 📋]
+A simple and intuitive To-Do list application built with Flutter, designed to help users manage their daily tasks efficiently. The app follows the MVC (Model-View-Controller) architecture.
 
-# GIF
+# [GIF]
 ![Loading...](Gif/Gif.gif)
 
-## Features
+## [Features]
 ### Task Management:
 - Add tasks for specific times using a bottom sheet modal.
 - Each task can contain multiple items (subtasks) that can be marked as completed, edited, or deleted.
